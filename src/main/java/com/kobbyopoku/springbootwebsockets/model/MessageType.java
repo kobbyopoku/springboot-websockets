@@ -1,2 +1,7 @@
-package com.kobbyopoku.springbootwebsockets.model;public enum MessageType {
+package com.kobbyopoku.springbootwebsockets.model;
+
+public enum MessageType {
+    CHAT,
+    CONNECT,
+    DISCONNECT
 }
